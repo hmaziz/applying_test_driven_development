@@ -1,14 +1,13 @@
-{
-  "name": "jest_testing",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "jest"
-  },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "jest": "^29.5.0"
+"configurations": [
+  {
+      "type": "java",
+      "name": "JUnit Test",
+      "request": "launch",
+      "mainClass": "",
+      "args": "",
+      "projectName": "",
+      "env": {
+          "CLASSPATH": "${workspaceFolder}/lib/junit-platform-console-standalone-1.7.2.jar"
+      }
   }
-}
+]
